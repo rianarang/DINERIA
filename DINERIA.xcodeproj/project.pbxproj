@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4057792B9963F70018BA9B /* DINERIAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4057782B9963F70018BA9B /* DINERIAApp.swift */; };
+		DA40577B2B9963F70018BA9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40577A2B9963F70018BA9B /* ContentView.swift */; };
+		DA40577D2B9963F70018BA9B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40577C2B9963F70018BA9B /* Item.swift */; };
+		DA40577F2B99640E0018BA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA40577E2B99640E0018BA9B /* Assets.xcassets */; };
+		DA4057822B99640E0018BA9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4057812B99640E0018BA9B /* Preview Assets.xcassets */; };
+		DA40578C2B99640F0018BA9B /* DINERIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40578B2B99640F0018BA9B /* DINERIATests.swift */; };
+		DA4057962B99640F0018BA9B /* DINERIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4057952B99640F0018BA9B /* DINERIAUITests.swift */; };
+		DA4057982B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4057972B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA4057882B99640F0018BA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA40576D2B9963F70018BA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4057742B9963F70018BA9B;
+			remoteInfo = DINERIA;
+		};
+		DA4057922B99640F0018BA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA40576D2B9963F70018BA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4057742B9963F70018BA9B;
+			remoteInfo = DINERIA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA4057752B9963F70018BA9B /* DINERIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DINERIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4057782B9963F70018BA9B /* DINERIAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINERIAApp.swift; sourceTree = "<group>"; };
+		DA40577A2B9963F70018BA9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA40577C2B9963F70018BA9B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DA40577E2B99640E0018BA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4057812B99640E0018BA9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA4057872B99640F0018BA9B /* DINERIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DINERIATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA40578B2B99640F0018BA9B /* DINERIATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINERIATests.swift; sourceTree = "<group>"; };
+		DA4057912B99640F0018BA9B /* DINERIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DINERIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4057952B99640F0018BA9B /* DINERIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINERIAUITests.swift; sourceTree = "<group>"; };
+		DA4057972B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINERIAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4057722B9963F70018BA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4057842B99640F0018BA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA40578E2B99640F0018BA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA40576C2B9963F70018BA9B = {
+			isa = PBXGroup;
+			children = (
+				DA4057772B9963F70018BA9B /* DINERIA */,
+				DA40578A2B99640F0018BA9B /* DINERIATests */,
+				DA4057942B99640F0018BA9B /* DINERIAUITests */,
+				DA4057762B9963F70018BA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4057762B9963F70018BA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4057752B9963F70018BA9B /* DINERIA.app */,
+				DA4057872B99640F0018BA9B /* DINERIATests.xctest */,
+				DA4057912B99640F0018BA9B /* DINERIAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4057772B9963F70018BA9B /* DINERIA */ = {
+			isa = PBXGroup;
+			children = (
+				DA4057782B9963F70018BA9B /* DINERIAApp.swift */,
+				DA40577A2B9963F70018BA9B /* ContentView.swift */,
+				DA40577C2B9963F70018BA9B /* Item.swift */,
+				DA40577E2B99640E0018BA9B /* Assets.xcassets */,
+				DA4057802B99640E0018BA9B /* Preview Content */,
+			);
+			path = DINERIA;
+			sourceTree = "<group>";
+		};
+		DA4057802B99640E0018BA9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA4057812B99640E0018BA9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA40578A2B99640F0018BA9B /* DINERIATests */ = {
+			isa = PBXGroup;
+			children = (
+				DA40578B2B99640F0018BA9B /* DINERIATests.swift */,
+			);
+			path = DINERIATests;
+			sourceTree = "<group>";
+		};
+		DA4057942B99640F0018BA9B /* DINERIAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4057952B99640F0018BA9B /* DINERIAUITests.swift */,
+				DA4057972B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift */,
+			);
+			path = DINERIAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4057742B9963F70018BA9B /* DINERIA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA40579B2B99640F0018BA9B /* Build configuration list for PBXNativeTarget "DINERIA" */;
+			buildPhases = (
+				DA4057712B9963F70018BA9B /* Sources */,
+				DA4057722B9963F70018BA9B /* Frameworks */,
+				DA4057732B9963F70018BA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DINERIA;
+			productName = DINERIA;
+			productReference = DA4057752B9963F70018BA9B /* DINERIA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA4057862B99640F0018BA9B /* DINERIATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA40579E2B99640F0018BA9B /* Build configuration list for PBXNativeTarget "DINERIATests" */;
+			buildPhases = (
+				DA4057832B99640F0018BA9B /* Sources */,
+				DA4057842B99640F0018BA9B /* Frameworks */,
+				DA4057852B99640F0018BA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4057892B99640F0018BA9B /* PBXTargetDependency */,
+			);
+			name = DINERIATests;
+			productName = DINERIATests;
+			productReference = DA4057872B99640F0018BA9B /* DINERIATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA4057902B99640F0018BA9B /* DINERIAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4057A12B99640F0018BA9B /* Build configuration list for PBXNativeTarget "DINERIAUITests" */;
+			buildPhases = (
+				DA40578D2B99640F0018BA9B /* Sources */,
+				DA40578E2B99640F0018BA9B /* Frameworks */,
+				DA40578F2B99640F0018BA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4057932B99640F0018BA9B /* PBXTargetDependency */,
+			);
+			name = DINERIAUITests;
+			productName = DINERIAUITests;
+			productReference = DA4057912B99640F0018BA9B /* DINERIAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA40576D2B9963F70018BA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DA4057742B9963F70018BA9B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DA4057862B99640F0018BA9B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DA4057742B9963F70018BA9B;
+					};
+					DA4057902B99640F0018BA9B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DA4057742B9963F70018BA9B;
+					};
+				};
+			};
+			buildConfigurationList = DA4057702B9963F70018BA9B /* Build configuration list for PBXProject "DINERIA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA40576C2B9963F70018BA9B;
+			productRefGroup = DA4057762B9963F70018BA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4057742B9963F70018BA9B /* DINERIA */,
+				DA4057862B99640F0018BA9B /* DINERIATests */,
+				DA4057902B99640F0018BA9B /* DINERIAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4057732B9963F70018BA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4057822B99640E0018BA9B /* Preview Assets.xcassets in Resources */,
+				DA40577F2B99640E0018BA9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4057852B99640F0018BA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA40578F2B99640F0018BA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4057712B9963F70018BA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA40577B2B9963F70018BA9B /* ContentView.swift in Sources */,
+				DA40577D2B9963F70018BA9B /* Item.swift in Sources */,
+				DA4057792B9963F70018BA9B /* DINERIAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4057832B99640F0018BA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA40578C2B99640F0018BA9B /* DINERIATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA40578D2B99640F0018BA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4057962B99640F0018BA9B /* DINERIAUITests.swift in Sources */,
+				DA4057982B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA4057892B99640F0018BA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4057742B9963F70018BA9B /* DINERIA */;
+			targetProxy = DA4057882B99640F0018BA9B /* PBXContainerItemProxy */;
+		};
+		DA4057932B99640F0018BA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4057742B9963F70018BA9B /* DINERIA */;
+			targetProxy = DA4057922B99640F0018BA9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA4057992B99640F0018BA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA40579A2B99640F0018BA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA40579C2B99640F0018BA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DINERIA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rianarang.DINERIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA40579D2B99640F0018BA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DINERIA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rianarang.DINERIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA40579F2B99640F0018BA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rianarang.DINERIATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DINERIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DINERIA";
+			};
+			name = Debug;
+		};
+		DA4057A02B99640F0018BA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rianarang.DINERIATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DINERIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DINERIA";
+			};
+			name = Release;
+		};
+		DA4057A22B99640F0018BA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rianarang.DINERIAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DINERIA;
+			};
+			name = Debug;
+		};
+		DA4057A32B99640F0018BA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rianarang.DINERIAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DINERIA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4057702B9963F70018BA9B /* Build configuration list for PBXProject "DINERIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4057992B99640F0018BA9B /* Debug */,
+				DA40579A2B99640F0018BA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA40579B2B99640F0018BA9B /* Build configuration list for PBXNativeTarget "DINERIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA40579C2B99640F0018BA9B /* Debug */,
+				DA40579D2B99640F0018BA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA40579E2B99640F0018BA9B /* Build configuration list for PBXNativeTarget "DINERIATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA40579F2B99640F0018BA9B /* Debug */,
+				DA4057A02B99640F0018BA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4057A12B99640F0018BA9B /* Build configuration list for PBXNativeTarget "DINERIAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4057A22B99640F0018BA9B /* Debug */,
+				DA4057A32B99640F0018BA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA40576D2B9963F70018BA9B /* Project object */;
+}
