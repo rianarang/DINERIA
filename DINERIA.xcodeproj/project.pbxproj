@@ -15,6 +15,13 @@
 		DA40578C2B99640F0018BA9B /* DINERIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40578B2B99640F0018BA9B /* DINERIATests.swift */; };
 		DA4057962B99640F0018BA9B /* DINERIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4057952B99640F0018BA9B /* DINERIAUITests.swift */; };
 		DA4057982B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4057972B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift */; };
+		DA4BB5EB2B9ABF43008BCACF /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = DA4BB5EA2B9ABF43008BCACF /* URLImage */; };
+		DA7EAC502B9AB0B9005BF4F0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EAC4F2B9AB0B9005BF4F0 /* HomeView.swift */; };
+		DA7EAC532B9AB12C005BF4F0 /* BlogPostPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EAC522B9AB12C005BF4F0 /* BlogPostPreviewView.swift */; };
+		DA7EAC562B9AB19A005BF4F0 /* BlogPostPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EAC552B9AB19A005BF4F0 /* BlogPostPreview.swift */; };
+		DA7EAC592B9AB576005BF4F0 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EAC582B9AB576005BF4F0 /* ImageView.swift */; };
+		DA7EAC5F2B9AB8DA005BF4F0 /* HomeViewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EAC5E2B9AB8DA005BF4F0 /* HomeViewRepository.swift */; };
+		DA7EAC622B9ABA71005BF4F0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EAC612B9ABA71005BF4F0 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,12 @@
 		DA4057912B99640F0018BA9B /* DINERIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DINERIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4057952B99640F0018BA9B /* DINERIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINERIAUITests.swift; sourceTree = "<group>"; };
 		DA4057972B99640F0018BA9B /* DINERIAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINERIAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA7EAC4F2B9AB0B9005BF4F0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DA7EAC522B9AB12C005BF4F0 /* BlogPostPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostPreviewView.swift; sourceTree = "<group>"; };
+		DA7EAC552B9AB19A005BF4F0 /* BlogPostPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostPreview.swift; sourceTree = "<group>"; };
+		DA7EAC582B9AB576005BF4F0 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		DA7EAC5E2B9AB8DA005BF4F0 /* HomeViewRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRepository.swift; sourceTree = "<group>"; };
+		DA7EAC612B9ABA71005BF4F0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4BB5EB2B9ABF43008BCACF /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +110,8 @@
 		DA4057772B9963F70018BA9B /* DINERIA */ = {
 			isa = PBXGroup;
 			children = (
+				DA7EAC5B2B9AB890005BF4F0 /* Home */,
+				DA7EAC572B9AB560005BF4F0 /* URLImage */,
 				DA4057782B9963F70018BA9B /* DINERIAApp.swift */,
 				DA40577A2B9963F70018BA9B /* ContentView.swift */,
 				DA40577C2B9963F70018BA9B /* Item.swift */,
@@ -130,6 +146,58 @@
 			path = DINERIAUITests;
 			sourceTree = "<group>";
 		};
+		DA7EAC542B9AB189005BF4F0 /* BlogPost */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EAC552B9AB19A005BF4F0 /* BlogPostPreview.swift */,
+			);
+			path = BlogPost;
+			sourceTree = "<group>";
+		};
+		DA7EAC572B9AB560005BF4F0 /* URLImage */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EAC582B9AB576005BF4F0 /* ImageView.swift */,
+			);
+			path = URLImage;
+			sourceTree = "<group>";
+		};
+		DA7EAC5B2B9AB890005BF4F0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EAC602B9ABA64005BF4F0 /* ViewModels */,
+				DA7EAC5D2B9AB8C3005BF4F0 /* Repositories */,
+				DA7EAC5C2B9AB897005BF4F0 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA7EAC5C2B9AB897005BF4F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EAC522B9AB12C005BF4F0 /* BlogPostPreviewView.swift */,
+				DA7EAC4F2B9AB0B9005BF4F0 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA7EAC5D2B9AB8C3005BF4F0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EAC542B9AB189005BF4F0 /* BlogPost */,
+				DA7EAC5E2B9AB8DA005BF4F0 /* HomeViewRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		DA7EAC602B9ABA64005BF4F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EAC612B9ABA71005BF4F0 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +214,9 @@
 			dependencies = (
 			);
 			name = DINERIA;
+			packageProductDependencies = (
+				DA4BB5EA2B9ABF43008BCACF /* URLImage */,
+			);
 			productName = DINERIA;
 			productReference = DA4057752B9963F70018BA9B /* DINERIA.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +289,9 @@
 				Base,
 			);
 			mainGroup = DA40576C2B9963F70018BA9B;
+			packageReferences = (
+				DA4BB5E92B9ABF43008BCACF /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = DA4057762B9963F70018BA9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,8 +335,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA40577B2B9963F70018BA9B /* ContentView.swift in Sources */,
+				DA7EAC622B9ABA71005BF4F0 /* HomeViewModel.swift in Sources */,
+				DA7EAC502B9AB0B9005BF4F0 /* HomeView.swift in Sources */,
 				DA40577D2B9963F70018BA9B /* Item.swift in Sources */,
+				DA7EAC562B9AB19A005BF4F0 /* BlogPostPreview.swift in Sources */,
 				DA4057792B9963F70018BA9B /* DINERIAApp.swift in Sources */,
+				DA7EAC592B9AB576005BF4F0 /* ImageView.swift in Sources */,
+				DA7EAC532B9AB12C005BF4F0 /* BlogPostPreviewView.swift in Sources */,
+				DA7EAC5F2B9AB8DA005BF4F0 /* HomeViewRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA4BB5E92B9ABF43008BCACF /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA4BB5EA2B9ABF43008BCACF /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA4BB5E92B9ABF43008BCACF /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA40576D2B9963F70018BA9B /* Project object */;
 }
